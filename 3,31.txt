@@ -1,0 +1,18 @@
+HTML → HyperText Markup Language
+
+
+<html> HTML 문서의 루트 요소 정의
+
+<head> HTML 문서의 메타데이터 정의
+메타데이터: HTML 문서에 대한 정보, 웹 브라우저에는 직접적으로 표현되지 않은 정보
+
+<title> HTML 문서의 제목을 정의
+
+<body> 웹 브라우저를 통해 보이는 내용
+
+<h1>~<h6> 제목
+
+<p> 단락
+
+html 속성은 시작 태그 내에서 속성 이름과 속성값으로 표현
+
