@@ -78,3 +78,5 @@ HTML 테이블
 border 속성 이용해서 테두리 표현
 한줄로 설정하려면 border-collapse로 써야함
 column으로 테이블의 열 합치기
+rowspan으로 테이블의 행 합치기
+caption으로 제목이나 설명 붙이기
