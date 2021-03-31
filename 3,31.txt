@@ -16,3 +16,7 @@ HTML → HyperText Markup Language
 
 html 속성은 시작 태그 내에서 속성 이름과 속성값으로 표현
 
+<br>태그: 줄 나누기
+<pre>태그: 텍스트 서식 미리 정의
+<hr>태그: 수평 가로 구분선
+
