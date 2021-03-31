@@ -17,5 +17,24 @@ views.py 작성하기
 config/urls.py 수정하기
 pybo/urls.py 생성하기 & 수정하기
 
+※데이터 관리하는 모델
+config/settings.py 열어 기본으로 설치된 앱 확인하기
+config/settings.py에서 데이터베이스 정보 살펴보기
+migrate 명령으로 앱이 필요로 하는 테이블 생성
+
+-모델 만들기-
+모델 속성 구상하기
+pybo/models.py에 질문 모델 작성하기
+pybo/models.py에 답변 모델 작성하기
+config/settings.py 열어 pybo 앱 등록하기
+migrate로 테이블 생성
+makemigrations로 테이블 작업 파일 생성하기
+migrate 실행하기
+
+-데이터 만들고 저장하고 조회하기-
+장고 셸 실행하기
+모델 임포트하기
+모델로 모델 데이터 만들기
+
 
 
