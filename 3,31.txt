@@ -40,7 +40,17 @@ html 속성은 시작 태그 내에서 속성 이름과 속성값으로 표현
 <address> 주소 표현
 
 엔티티: HTML 예약어를 기존에 사용하던 의미 그대로 사용하기 위해 별도로 만든 문자셋
+엔티티 문법 ▶ &엔티티이름; or &#엔티티숫자;
 
-
+문자셋은 html 문서를 나타내기 위해 알아야 할 정보
+<head>태그 내의 <meta>태그에 명시
+문자셋의 종류: 1. ASCII 2. ANSI 3. ISO-8859-1 4. UTF-8
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+HTML 스타일
+문법: <태그이름 style="속성이름:속성값">
+배경색 변경: <h1 style="background-color:white">
+글자색 변경: <h1 style="color:maroon">
+글자 크기 변경: <h1 style="font-size:250%">
+문단 정렬 변경: <h1 style="text-align:center">
 
 
