@@ -31,6 +31,13 @@ HTML에서는 3가지 방법으로 작성 가능
 2. HTML5 레이아웃
 3. table 요소를 이용한 레이아웃 - 현재 거의 사용 x
 
+<header> : HTML 문서나 섹션(section) 부분에 대한 헤더(header)를 정의함.
+<nav> : HTML 문서의 탐색 링크를 정의함.
+<section>HTML 문서에서 섹션(section) 부분을 정의함.
+<article> : HTML 문서에서 독립적인 하나의 글(article) 부분을 정의함.
+<aside> : HTML 문서에서 페이지 부분 이외의 콘텐츠(content)를 정의함. 
+<footer> : HTML 문서나 섹션(section) 부분에 대한 푸터(footer)를 정의함.
+
 Form 요소
 form 요소를 사용해 사용자로부터 입력을 받을 수 있고 사용자가 입력한 데이터를 서버로 보낼 때에도 form 요소를 사용
 문법: <form action="처리할페이지주소" method="get|post"></form>
