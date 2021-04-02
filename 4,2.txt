@@ -46,3 +46,13 @@ HTML5에서 추가된 요소 및 타입
 <title> : 제목
 
 요소, 속성, 태그 같은 것들은 너무 많아서 외우기 힘드니까 정말 자주 쓰이는 것만 외우고 나머지는 찾는 식으로
+
+-기본 형식-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>...</title>
+</head>
+<body>
+</body>
+</html>
