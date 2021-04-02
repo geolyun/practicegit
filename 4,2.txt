@@ -1,3 +1,46 @@
 HTML 웹 작성
 CSS 웹 디자인
 JS 웹 동작
+
+XHTML(EXtensible HTML)
+
+HTML5 
+웹 상에서 콘텐츠를 구성하고 보여주기 위한 HTML 언어의 최신 표준 권고안
+· DOCTYPE 선언이 간단해짐
+	<?DOCTYPE html>
+· 문자셋의 선언도 간단해짐
+	HTML5 이전
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	HTML5
+	<meta charset="UTF-8">
+
+HTML5에서 추가된 요소 및 타입
+- 의미(semantic) 요소 : <header>, <nav>, <main>, <section>, <aside>, <article>, <footer>, <figure>
+- 멀티미디어 요소 : <video>, <audio>
+- 그래픽 요소 : <canvas>, <svg>
+- input 요소의 타입 : number, date, time, calendar, range
+
+일단 이 정도 태그만 외우자
+<div> : 레이아웃과 같은 태그
+
+<h1 ~ h6> : 제목태그
+
+<p> : 글 태그
+
+<button> : 버튼 태그
+
+<input> : radio,checkbox,text 등 유저의 참여를 유도하는 태그
+
+<ul>,<ol>,<li> : 리스트 작성 태그
+
+<br> : 줄바꿈
+
+<form> : 폼형식을 넣는 태그
+
+<span> : 인라인으로 된 레아이웃태그
+
+<img> : 이미지 삽입태그
+
+<a href=""> : 링크를 걸어주는 태그
+
+<title> : 제목
