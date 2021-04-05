@@ -2,3 +2,43 @@
 ex) Java Applet, Flash Player, Pdf Reader
 object 요소 : HTML 문서에 삽입할 객체를 명시하는데 사용
 embed 요소 : HTML 문서에 삽입할 객체를 명시하는데 사용
+
+css 문법
+a { background-color: yellow; font-size: 16px; }
+선택자와 선언부로 구성
+선택자는 CSS를 적용하고자 하는 HTML 요소
+선언부는 하나 이상의 선언들을 세미콜론으로 구분하여 포함할 수 있고, 중괄호를 사용해서 전체를 둘러쌈
+각 선언은 CSS 속성명과 속성값을 가지며, 그 둘은 콜론으로 연결된다. 
+
+CSS 선택자
+-HTML 요소 선택자
+-아이디 선택자
+-클래스 선택자
+-그룹 선택자
+
+CSS 적용하는 방법
+1. 인라인 스타일 - HTML 요소 내부에 style 속성을 사용하여 CSS 스타일을 적용하는 방법
+2. 내부 스타일 시트 - HTML 문서 내의 <head>태그에 <style>태그를 사용하여 CSS 스타일을 적용
+3. 외부 스타일 시트 - 웹 사이트 전체의 스타일을 하나의 파일에서 변경할 수 있도록 해줌
+
+CSS에서 사용할 수 있는 background 속성
+
+1. background-color - 배경색
+2. background-image - 배경 이미지
+3. background-repeat - 반복
+4. background-position - 배경 이미지의 상대 위치
+5. background-attachment - 배경 이미지를 해당 위치에 고정
+
+CSS에서 사용할 수 있는 text 속성
+
+1. color - 색상
+2. direction - 써지는 방향
+3. letter-spacing - 글자 사이의 간격
+4. word-spacing - 단어 사이의 간격
+5. text-indent - 단락의 첫 줄에 들여쓰기할지 안 할지 설정
+6. text-align - 수평 방향 정렬
+7. text-decoration - 여러 가지 효과를 설정하거나 제거하는데 사용
+8. text-transform - 영문자에 대한 대소문자 설정
+9. line-height - 텍스트의 줄 간격
+10. text-shadow - 간단한 그림자 효과
+
