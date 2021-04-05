@@ -1,0 +1,24 @@
+URI(Uniform Resource Identifier)
+
+·URI 구성 요소
+Scheme : 웹 페이지에 접속할 때 어떤 체계(프로토콜)를 이용할지에 대한 정보를 담고 있다.
+Host : Authority의 일부로써 접속할 웹 서버의 호스트에 대한 정보를 가지고 있다. 
+Port : Authority의 일부로써 접속할 웹 서버의 포트에 대한 정보를 가지고 있다.
+Path : 접속할 웹 서버의 경로에 대한 정보를 가지고 있다. 
+Query : 웹 서버에 전달하는 파라미터이며 URI에서 ? 문자 뒤에 붙는다.
+Fragment : 메인 리소스 내에 존재하는 서브 리소스에 접근할 때 이를 식별하기 위한 정보를 담고 있으며 URI에서 # 문자 뒤에 붙는다.
+
+ex)
+https://example.com:8042/over/there?name=ferret#nose
+
+HTTP는 사용자가 서버에 요청을 하는 Request와 사용자의 요청에 대한 서버의 응답인 Response로 나뉘어짐
+Request 구조 중 가장 첫번째 줄에는 서버에 요청 시 수행하고자 하는 동작인 Method, 요청하는 웹 리소스의 경로인 Path
+Response 구조 중 가장 첫번째 줄에는 Version과 사용자의 요청에 대한 서버의 상태 응답 코드인 Status code
+Response 두번째 줄부터는 Header 부분, 각 줄은 이름: 값 형태
+
+HTTP는 connectionless, stateless 프로토콜
+connectionless 속성은 하나의 요청에 하나의 응답을 한 후 네트워크 연결을 끝맺는 것
+stateless 속성은 네트워크가 연결이 끝맺을 때 상태를 유지하지 않는 것
+쿠키 : 인터넷 사용자가 어떠한 웹사이트를 방문할 경우 그 사이트가 사용하고 있는 서버를 통해 인터넷 사용자의 컴퓨터에 설치되는 작은 기록 정보 파일
+세션 : 서버에 데이터를 저장하기 위해 사용
+
